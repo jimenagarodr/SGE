@@ -1,10 +1,16 @@
-#!/usr/bin/env python3
-import sys
+import ajedrez.ajedrez
+import ajedrez.tablero as tablero
+import ajedrez.ficha as ficha
 
-print(sys.argv)
 
-for i in sys.argv:
-    print(i)
+# ajedrez.ajedrez.inicio()
 
-for j in range(1,len(sys.argv)):
-    print(sys.argv[j])
+# ajedrez.ajedrez.mover("Pd2","Pd4")
+# ajedrez.ajedrez.mover("cb8","cc6")
+# ajedrez.ajedrez.mover("Ac1","Ae3")
+
+# ajedrez.ajedrez.comer("cc6","cd4")
+
+
+ajedrez.ajedrez.help()
+ajedrez.ajedrez.damas()
